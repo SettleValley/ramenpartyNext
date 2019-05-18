@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@types/next": "^8.0.5",
+    "express": "^4.17.0",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "name": "ramenpartynext",
+  "description": "migrated all project to next.js components",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SettleValley/ramenpartyNext.git"
+  },
+  "author": "Efrain Lay Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SettleValley/ramenpartyNext/issues"
+  },
+  "homepage": "https://github.com/SettleValley/ramenpartyNext#readme"
+}
