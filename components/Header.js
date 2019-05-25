@@ -22,14 +22,7 @@ const Header = ()=>{
                         <li className="nav-item">
                             <Link href="#">
                                 <a className="nav-link">
-                                    <i className="fab fa-facebook-square"></i> Facebook
-                                </a> 
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link href="#">
-                                <a className="nav-link">
-                                    <i className="fab fa-facebook-square"></i> Facebook
+                                    <i className="fab fa-instagram"></i> Instagram
                                 </a> 
                             </Link>
                         </li>
