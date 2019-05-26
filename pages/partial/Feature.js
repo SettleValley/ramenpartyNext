@@ -7,24 +7,34 @@ export default ()=>{
         <div className="col-md-8 blog-main">
             <h3 className="pb-4 mb-4 font-italic border-bottom font-weight-bold">From the gallery base</h3>
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-4 mb-2">
                     <div className="card shadow-sm border-0 rounded-0 ">
-                        <img src="https://via.placeholder.com/480x720" class="card-img-top" alt="..."/>
-                        <div className="card-body">
-                        <blockquote className="blockquote mb-0">
-                            <footer className="blockquote-footer">Ghibli Expo ft. Shiroga Productions</footer>
-                        </blockquote>
-                        </div>
+                        <img src="/static/girleating.jpg" class="card-img-top gallery_image-cover" alt="..."/>
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-4 mb-2">
                     <div className="card shadow-sm border-0 rounded-0 ">
-                        <img src="https://via.placeholder.com/480x720" class="card-img-top" alt="..."/>
-                        <div className="card-body">
-                        <blockquote className="blockquote mb-0">
-                            <footer className="blockquote-footer">Donde comprar manga en Panamá</footer>
-                        </blockquote>
-                        </div>
+                        <img src="/static/gundam.jpg" class="card-img-top gallery_image-cover" alt="..."/>
+                    </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                    <div className="card shadow-sm border-0 rounded-0 ">
+                        <img src="/static/matsuri.jpg" class="card-img-top gallery_image-cover" alt="..."/>
+                    </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                    <div className="card shadow-sm border-0 rounded-0 ">
+                        <img src="/static/manga.jpg" class="card-img-top gallery_image-cover" alt="..."/>
+                    </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                    <div className="card shadow-sm border-0 rounded-0 ">
+                        <img src="/static/flower.jpg" class="card-img-top gallery_image-cover" alt="..."/>
+                    </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                    <div className="card shadow-sm border-0 rounded-0 ">
+                        <img src="/static/street.jpg" class="card-img-top gallery_image-cover" alt="..."/>
                     </div>
                 </div>
             </div>

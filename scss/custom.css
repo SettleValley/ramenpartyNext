@@ -24,6 +24,21 @@ h1,h2,h3,h4{
   height: 2.75rem;
   overflow-y: hidden;
 }
+.yellow{
+  color: #fdd32a;
+}
+.box_yellow{
+  border-bottom: #fed62a 3px solid;
+}
+.green{
+  color: #378566;
+}
+.box_green{
+  border-bottom: #378566 3px solid;
+}
+.red{
+  color: #da292a;
+}
 .itadakimasu{
   background-image: url('/static/itadakimasu.jpg');
   background-size: cover;
@@ -44,4 +59,13 @@ h1,h2,h3,h4{
 }
 .h-md-250{
   height: 250px;
+}
+.cover_image{
+  object-fit: cover;
+  max-height: 250px;
+}
+.gallery_image-cover{
+  object-fit: cover;
+  height: 200px;
+  max-height: 200px;
 }

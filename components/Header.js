@@ -13,7 +13,7 @@ const Header = ()=>{
                 </div>
                 <div className="col-4 text-center">
                     <Link href="#">
-                        <a class="blog-header-logo text-dark" >Ramen Party</a>
+                        <a class="blog-header-logo red" >Ramen Party</a>
                     </Link>
                 </div>
                 <div className="col-4 d-flex justify-content-end align-items-center">
