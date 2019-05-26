@@ -3,34 +3,60 @@ import Link from 'next/link'
 const Header = ()=>{
     return(
 <div className="" id="TopHeader">
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div className="container">
-                <Link href="/"><a className="navbar-brand">Ramen Party</a></Link>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav ml-auto">
-                        <li className="nav-item active">
-                            <Link href="#">
-                                <a className="nav-link">
-                                    <i className="fab fa-youtube"></i> Youtube
-                                </a>
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link href="#">
-                                <a className="nav-link">
-                                    <i className="fab fa-instagram"></i> Instagram
-                                </a> 
-                            </Link>
-                        </li>
-                        </ul>
-                    </div>
+    <div className="container">
+        <header className="blog-header py-3">
+            <div className="row flex-nowrap justify-content-between align-items-center">
+                <div className="col-4 pt-1">
+                    <Link href="#">
+                        <a class="text-muted" >Subscribe</a>
+                    </Link>
                 </div>
+                <div className="col-4 text-center">
+                    <Link href="#">
+                        <a class="blog-header-logo text-dark" >Ramen Party</a>
+                    </Link>
+                </div>
+                <div className="col-4 d-flex justify-content-end align-items-center">
+                    <Link>
+                        <a className="nav-link">
+                            <i className="fab fa-youtube"></i>
+                        </a>
+                    </Link>
+                    <Link>
+                        <a className="nav-link">
+                            <i className="fab fa-instagram"></i>
+                        </a> 
+                    </Link>
+                </div>
+            </div>
+        </header>
+        <div className="nav-scroller py-1 mb-2">
+            <nav className="nav d-flex justify-content-between">
+                <Link>
+                    <a className="p-2 text-muted">Manga</a>
+                </Link>
+                <Link>
+                    <a className="p-2 text-muted">Culture</a>
+                </Link>
+                <Link>
+                    <a className="p-2 text-muted">Animation</a>
+                </Link>
+                <Link>
+                    <a className="p-2 text-muted">Technology</a>
+                </Link>
+                <Link>
+                    <a className="p-2 text-muted">Style</a>
+                </Link>
+                <Link>
+                    <a className="p-2 text-muted">Travel</a>
+                </Link>
+                <Link>
+                    <a className="p-2 text-muted">Food</a>
+                </Link>
             </nav>
         </div>
+    </div>
+</div>
     );
 }
 export default Header

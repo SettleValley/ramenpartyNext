@@ -1,14 +1,15 @@
 import Layout from '../components/layout'
-import Link from 'next/link'
 
-//components
+//Partials components
 import Jumbotron from './partial/Jumbotron';
+import Card from './partial/Card';
 //Style
 const title = 'Ramen Party'
 const Page =()=>{
   return(
     <div>
       <Jumbotron/>
+      <Card/>
     </div>
   );
 }
